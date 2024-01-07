@@ -44,7 +44,7 @@ AutoHotKey is a free and open-source scripting language designed for automating 
 
 2. Change right_alt+hjkl to arrow keys
 
-        URL: https://www.autohotkey.com/boards/viewtopic.php?t=24521
+        URL: [https://www.autohotkey.com/boards/viewtopic.php?t=24521](https://www.autohotkey.com/boards/viewtopic.php?f=76&t=82285)
 
 Total file:
 ```
@@ -152,31 +152,30 @@ g_ControlRepeatDetected := false
     g_AbortSendEsc := true
     return
 
-;About Alt + hjkl for arrow key, refer to: https://www.autohotkey.com/boards/viewtopic.php?t=24521
-
-Hotkey, *k, Off
-Hotkey, *h, Off
-Hotkey, *j, Off
-Hotkey, *l, Off
-
-*RAlt::
-    Hotkey, *k, on
-    Hotkey, *h, on
-    Hotkey, *j, on
-    Hotkey, *l, on
+;About Alt + hjkl for arrow key, refer to: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=82285 (anwsered by boiler)
+*>!k::
+	Mods := GetKeyState("Shift", "P") ? "+" : ""
+	Mods .= GetKeyState("Ctrl", "P") ? "^" : ""
+	Send, % Mods "{Up}"
 return
 
-*RAlt up::
-    Hotkey, *k, off
-    Hotkey, *h, off
-    Hotkey, *j, off
-    Hotkey, *l, off
+*>!h::
+	Mods := GetKeyState("Shift", "P") ? "+" : ""
+	Mods .= GetKeyState("Ctrl", "P") ? "^" : ""
+	Send, % Mods "{Left}"
 return
 
-*k::send {blind}{up}
-*h::send {blind}{left}
-*j::send {blind}{down}
-*l::send {blind}{right}
+*>!j::
+	Mods := GetKeyState("Shift", "P") ? "+" : ""
+	Mods .= GetKeyState("Ctrl", "P") ? "^" : ""
+	Send, % Mods "{Down}"
+return
+
+*>!l::
+	Mods := GetKeyState("Shift", "P") ? "+" : ""
+	Mods .= GetKeyState("Ctrl", "P") ? "^" : ""
+	Send, % Mods "{Right}"
+return
 ```
 
 Usage:
