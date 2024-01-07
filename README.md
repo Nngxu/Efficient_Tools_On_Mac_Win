@@ -44,7 +44,8 @@ AutoHotKey is a free and open-source scripting language designed for automating 
 
 2. Change right_alt+hjkl to arrow keys
 
-        URL: [https://www.autohotkey.com/boards/viewtopic.php?t=24521](https://www.autohotkey.com/boards/viewtopic.php?f=76&t=82285)
+        URL: https://www.autohotkey.com/boards/viewtopic.php?f=76&t=82285
+        (anwsered by boiler)
 
 Total file:
 ```
