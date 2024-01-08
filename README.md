@@ -184,6 +184,9 @@ Usage:
 - Create a *.ank file, and add above to a *.ank file
 - Run this file with Admin
 
+## [Monitorian](https://github.com/emoacht/Monitorian)
+External Monitor Brightness Control
+
 ## Others
 
 - CopyQ (Same as CopyClip on Mac)
