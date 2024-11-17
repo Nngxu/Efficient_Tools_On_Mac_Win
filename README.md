@@ -14,16 +14,31 @@ Karabiner-Elements is a keyboard customization tool for macOS. It allows users t
 
 	![img](./img/right_command.png)
 
-## copyclip
+## Change spotlight and Input Source Hotkeys
 
-"CopyClip" is a software or app that allows users to manage and enhance their clipboard functionality on computers or mobile devices.
+- Go to `System Settings -> Keyboard -> Keyboard Shortcuts...`
+   - Setting `Input Sources -> Select the previous input source` to `Command + Space`
+   - Setting `Spotlight -> Show Spotlight search` to `Option + Space`
 
-(Download from AppleStore.)
+## [Maccy](https://maccy.app)
 
+Maccy is a software that allows users to manage and enhance their clipboard functionality on computers or mobile devices.
+
+`Command + Shift + C`: Open Maccy (Very useful!) 
+
+~~## copyclip~~
+
+~~"CopyClip" is a software or app that allows users to manage and enhance their clipboard functionality on computers or mobile devices.~~
+
+~~(Download from AppleStore.)~~
 
 ## [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 
 Controls your external display brightness and volume and shows native OSD.
+
+## [Bartender5](https://www.macbartender.com)
+
+Bartender is a useful menu bar manager.
 
 ## Others
 - Telegram
