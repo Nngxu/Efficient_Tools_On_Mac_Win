@@ -40,6 +40,9 @@ Controls your external display brightness and volume and shows native OSD.
 
 Bartender is a useful menu bar manager.
 
+- Buy in Taobao
+- Setting `Hotkeys -> Show hidden menu bar items` to `Control + S`
+
 ## Others
 - Telegram
 - Nomachine
