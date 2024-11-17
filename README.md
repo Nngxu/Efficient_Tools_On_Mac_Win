@@ -18,7 +18,7 @@ Karabiner-Elements is a keyboard customization tool for macOS. It allows users t
 
 - Go to `System Settings -> Keyboard -> Keyboard Shortcuts...`
    - Setting `Input Sources -> Select the previous input source` to `Command + Space`
-   - Setting `Spotlight -> Show Spotlight search` to `Option + Space`
+   ~~- Setting `Spotlight -> Show Spotlight search` to `Option + Space`~~ (Using Alfred as alternative)
 
 ## [Maccy](https://maccy.app)
 
@@ -48,6 +48,7 @@ Bartender is a useful menu bar manager.
 - Nomachine
 - Dropbox
 - OBS
+- Alfred
 
 # Efficient Tools On Windows
 
